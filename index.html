@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonus Player Example</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+    <div class="player">
+        <script src="./script.js"></script>
+        <div id="trackname"> Example </div>
+        <div id="mediabuttons">
+            <div id="playbtn" onclick="play()">></div>
+            <div id="pausebtn" onclick="pause()">||</div>
+        </div>
+        <div id="slidercontainer">
+            <div id="timer">00:00</div> <input type="range" min="1" max="100" value="0" id="slider" onchange="seekTo()">
+        </div>
+    </div>
+</body>

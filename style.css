@@ -1,0 +1,40 @@
+.player {
+    padding: 10px;
+    background-color: #99c1f1;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    color: #000000;
+}
+#timer {
+    color: #000000;
+}
+#trackname {
+    padding: 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+#mediabuttons {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #000000;
+}
+#playbtn, #pausebtn {
+    margin: 5px;
+}
+#playbtn:hover, #pausebtn:hover {
+    cursor: pointer;
+}
+#slidercontainer {
+    margin: 5px;
+}
