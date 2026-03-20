@@ -6,3 +6,8 @@ This repo is just code examples. If you want to use the player you can either mo
 Edit to your heart's content.
 
 No attribution required, but is appreciated!!
+
+<details>
+<summary>(internal CCID)</summary>
+CC.03.02.WEB.sonus-player.0&V-2&V
+</details>
